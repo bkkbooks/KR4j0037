@@ -1,0 +1,52 @@
+canonical_identifier: bkk:krp/KR4j0037/v1
+canonical_location: https://kanripo.org/bkk/KR4j0037/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 歸愚詞
+  date: '2015-08-25 00:48:06.272436'
+  source:
+    repository: kanripo
+    path: KR4j0037
+  base_edition: WYG
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: WYG
+  label: 【四庫全書・文淵閣】
+assets:
+  parts:
+  - {seq: 0, filename: KR4j0037_000.yaml, hash: 'sha256:a7ba726969e159ded82a905da423c1c4b785bfa592331a46426b2b247903ddb7'}
+  - {seq: 1, filename: KR4j0037_001.yaml, hash: 'sha256:68bf30fb2df6c5a8f6e8796092fc351e03579949a4ca61eede45e01baf281217'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4j0037_000.markers.yaml, hash: 'sha256:054f0881781f54b0e573eedb9ec1106e12586a1ffb37106cf39e316ad9337175'}
+  - {seq: 1, role: markers, filename: assets/KR4j0037_001.markers.yaml, hash: 'sha256:e15c31931a217b78f20e95a150675253b30b4de504b8f1b9ba6dab852a939947'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4j0037_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 968
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4j0037_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 3275
+  label: 歸愚詞
+  type: section
+  level: 1
+hash: sha256:96490c975e339402f4ca613fb2131ace34995067f18b14f34e8ec2ac4bbed4a2
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
